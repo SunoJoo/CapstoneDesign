@@ -32,7 +32,7 @@ public class Tcp_server {
 			pw.println(line);
 			pw.flush();
 		}
-		
+		  
 		pw.close();
 		br.close();
 		sock.close();
